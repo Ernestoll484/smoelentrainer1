@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+
+<body>
+    <section class="col-12">
+        <img src="img/groepsfoto.png" class="rounded mx-auto d-block mt-5" alt="Bayern Munchen">
+    </section>
+
+    <!-- Begin startPagina-->
+    <div id="startPagina">
+
+            <button id="startKnop">Start</button>
+            <button id="instellingenKnop">Instellingen</button>
+            <button id="geschiedenisKnop">Geschiedenis</button>
+            
+    </div>
+    <!-- Eind startPagina-->
+
+    <!-- Begin instellingenPagina-->
+    <div id="instellingenPagina">
+
+        <!-- aantal mensen: zorgen met een radio button dat je en hoeveelheid kan kiezen-->
+        <div id="aantalMensenDiv"> Aantal mensen<br>
+            <label for="">3</label>
+            <input type="radio" name="spelerAantal" class="aantalMensen" value="3">
+
+            <label for="">5</label>
+            <input type="radio" name="spelerAantal" class="aantalMensen" value="5">
+
+            <label for="">7</label>
+            <input type="radio" name="spelerAantal" class="aantalMensen" value="7">
+
+            <label for="">9</label>
+            <input type="radio" name="spelerAantal" class="aantalMensen" value="9">
+
+            <label for="">11</label>
+            <input type="radio" name="spelerAantal" class="aantalMensen" value="11">
+        </div>
+        <input type="number" id="userInput">
+        <button id="terugKnop1">terug</button>
+
+    </div>
+    <!-- Eind instellingenPagina-->
+
+    <!-- Begin geschiedenisPagina-->
+    <div id="geschiedenisPagina">
+        <div id="matchGeschiedenis"></div>
+        <button id="terugKnop2">terug</button>
+        <button id="blindeVlekKnop">blindevlek</button>
+    </div>
+    <!-- Einde geschiedenisPagina-->
+
+    <!-- Begin blindeVlekPagina-->
+    <div id="blindeVlekPagina">
+        <div id="blindeVlekGeschiedenis"></div>
+        <button id="terugKnop3">terug</button>
+    </div>
+    <!-- Einde blindeVlekPagina-->
+
+    <!-- Begin smoelenTrainer-->
+    <div id="smoelenTrainer">
+        <div id="countdown"></div>
+        <div id="pointsGoed"></div>
+        <div id="pointsFout"></div>
+        <div id="gridContainer">
+            <div id="gridContainer1"></div>
+            <div id="gridContainer2"></div>
+        </div>
+    </div>
+    <!-- Eind smoelenTrainer-->
+
+    <!-- Scripts -->
+    <script src='./js/main.js'></script>
+</body>
+<html>
